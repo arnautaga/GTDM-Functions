@@ -1,3 +1,6 @@
+import turtle
+from datetime import time
+
 import numpy
 import scipy
 import sympy
@@ -54,3 +57,5 @@ def calc_base_ortonormal_sp(A, v):
     P2 = (v.dot(u2)) * u2
     P = P1 + P2
     return P
+
+
